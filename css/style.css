@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#111;
+color:white;
+overflow-x:hidden;
+}
+
+.inicio{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:25px;
+background:linear-gradient(135deg,#8B0000,#000,#DAA520);
+}
+
+.inicio h1{
+font-family:'Bangers',cursive;
+font-size:3rem;
+color:#FFD700;
+text-shadow:3px 3px 10px #000;
+}
+
+.inicio h2{
+margin-top:15px;
+font-size:1.6rem;
+}
+
+.inicio p{
+margin-top:20px;
+font-size:1.1rem;
+max-width:500px;
+}
+
+#entrar{
+margin-top:35px;
+padding:16px 35px;
+border:none;
+border-radius:40px;
+background:#FFD700;
+color:#111;
+font-size:1.2rem;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+#entrar:hover{
+transform:scale(1.08);
+}
+
+.campeona{
+padding:50px 20px;
+text-align:center;
+}
+
+.foto{
+width:260px;
+max-width:90%;
+border-radius:25px;
+border:6px solid #FFD700;
+box-shadow:0 0 25px gold;
+margin-bottom:25px;
+}
+
+.evento{
+padding:40px 20px;
+text-align:center;
+background:#1b1b1b;
+}
+
+.evento h2{
+color:#FFD700;
+margin-top:25px;
+}
+
+.evento a{
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+}
+Diseño inicial de la invitación
